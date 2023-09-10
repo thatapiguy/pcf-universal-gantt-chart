@@ -8,7 +8,7 @@ export const ViewSwitcher: React.FunctionComponent<{
 }> = ({ context, onViewChange }) => {
   return (
     <div className="Gantt-Header">
-      <button
+    /* <button
         className="Gantt-Button Gantt-Button_Header"
         onClick={() => onViewChange(ViewMode.QuarterDay)}
       >
@@ -28,7 +28,7 @@ export const ViewSwitcher: React.FunctionComponent<{
       >
         {context.resources.getString("Day_Name")}
       </button>
-      <div className="Gantt-Header_Separator">|</div>
+      <div className="Gantt-Header_Separator">|</div>*/
       <button
         className="Gantt-Button Gantt-Button_Header"
         onClick={() => onViewChange(ViewMode.Week)}
